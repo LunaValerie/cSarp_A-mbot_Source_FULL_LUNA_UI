@@ -42,9 +42,9 @@ namespace SwedAim
             swed swed = new swed();
             swed.GetProcess("PointBlank");
 
-            var client = swed.GetModuleBase("PointBlank.exe");
+            var client = swed.GetModuleBase("");
 
-            var engine = swed.GetModuleBase("PointBlank.exe");
+            var engine = swed.GetModuleBase("");
 
             entity player = new entity();
             List<entity> entities = new List<entity>();
